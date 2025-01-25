@@ -2,7 +2,7 @@
 
 //
 // /* FOR EACH
-const codeing = ["js","ruby","java","python","cpp"]
+//const codeing = ["js","ruby","java","python","cpp"]
 // codeing.forEach(  function (item) {
    // console.log(item);
 /*    
@@ -42,4 +42,4 @@ codeing.forEach((val)=>{console.log(val)}) // arrow function
     },
  ]
  language.forEach((item )=>{
-    console.log(item.level ); })
+    console.log(item); })
