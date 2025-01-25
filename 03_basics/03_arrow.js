@@ -28,7 +28,10 @@ const chai = function(){
 }
 chai()
 
-// arrorw function
+// arrow function 
+   variable name
+       |
+       v
 const chai = () => {
     let username = "nitesh"
     console.log(this);
@@ -40,7 +43,7 @@ const aurcode =  ( num1 , num2) =>  num1 + num2
 console.log(aurcode(3,3))
 
 const stringadd = (str1 , str2) => str1+str2
-console.log("nitesh" , "kumar")
+console.log(" Nitesh " , " kumar ")
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "Nitesh"})
 console.log(addTwo())
