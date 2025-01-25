@@ -1,2 +1,4 @@
-# javascript-learning
-learning doc of javascript
+# JavaScript - Learning
+==========================
+
+Learning Doc oF JavaScript
