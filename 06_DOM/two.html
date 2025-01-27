@@ -1,2 +1,44 @@
 <!DOCTYPE html>
-<
+<html>
+    <head>
+        <title>
+            Dom Learning
+        </title>
+    </head>
+    <body style="background-color: black ; color: #fff;">
+<div class="parent">
+    <!-- this is the comment-->
+        <div class = "day">Monday </div>
+        <div class = "day">Tuesday</div>
+        <div class = "day">wednesday</div>
+        <div class = "day">thursday</div>
+        <!--<div class = "day">friday</div>-->
+        <!--<div class = "day">saturday</div>-->
+        <!--<div class = "day">sunday</div>-->
+    </div>
+    </body>
+    <script>
+        const parent = document.querySelector('.parent')
+        //console.log(parent);
+        //console.log(parent.children);
+        //console.log(parent.children[1].innerHTML);
+//
+        //for(let i = 0 ; i<parent.children.length;i//++){
+        //    console.log(parent.children[i].//innerHTML);
+        //   
+        //}
+        parent.children[1].style.color = "orange"
+        //console.log(parent.firstElementChild);
+        //console.log(parent.lastElementChild);
+        
+const dayone =  document.querySelector('.day')
+console.log(dayone);
+//console.log(dayone.parentElement);
+console.log(dayone.nextElementSibling);
+
+console.log("NODES :" , parent.childNodes);
+
+
+
+    </script>
+</html>
