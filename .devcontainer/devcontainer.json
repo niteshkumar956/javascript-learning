@@ -24,7 +24,7 @@
 				"sidthesloth.html5-boilerplate"
 			],
 			"settings": {
-				"editor.fontSize": 24,
+				"editor.fontSize": 20,
 				"terminal.integrated.fontSize": 18,
 				"editor.wordWrap": "on"
 			}
