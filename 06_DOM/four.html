@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code doc 4</title>
+</head>
+<body style = "background-color: black; color: blanchedalmond; font-size: 28px;">
+    <ul class = "language">
+        <li>JavaScript</li>
+    </ul>
+    
+</body>
+<script>
+    function addlanguage(langName){
+const li = document.createElement('li');
+li.innerHTML= `${langName}`
+document.querySelector('.language').appendChild(li)
+    }
+    addlanguage("python")
+    addlanguage("typescript")
+
+    function addoptlangauge(langName){
+       const li =  document.createElement('li');
+
+       const addText =li.appendChild( document.createTextNode(langName))
+
+       document.querySelector('.language').appendChild(li)
+    }
+    addoptlangauge('golang')
+    addlanguage("cpp")
+</script>
+</html>
